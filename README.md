@@ -1,22 +1,22 @@
-# 🤖 GenAI Business Assistant
+#  GenAI Business Assistant
 
 Transform business problems into structured technical solution specifications using Generative AI.
 
 ---
 
-## ✨ Overview
+##  Overview
 
 The **GenAI Business Assistant** is a Streamlit-powered application that helps you convert natural language business challenges into detailed, AI-driven solution blueprints.
 
 Whether you're a product owner, business analyst, or technical stakeholder, this tool allows you to:
 
-- ✅ Quickly define AI-powered product opportunities
-- 🚀 Automatically generate high-level technical documentation
-- 🧠 Understand the necessary data, architecture, and tooling
+-  Quickly define AI-powered product opportunities
+-  Automatically generate high-level technical documentation
+-  Understand the necessary data, architecture, and tooling
 
 ---
 
-## 💬 Example Input
+##  Example Input
 
 
 ---
@@ -33,7 +33,7 @@ Whether you're a product owner, business analyst, or technical stakeholder, this
 
 ---
 
-## 🖥️ Local Setup
+##  Local Setup
 
 To run the project locally:
 
@@ -102,15 +102,18 @@ Then open your browser and go to:
 
 ---
 
-## 👨‍💻 Author
+##  Screenshot
+
+![App Screenshot](assets/demo-screenshot.png)
+
+---
+
+##  Author
 
 **Matthew D. Alagheel**  
 - GitHub: [@Malagheel](https://github.com/Malagheel)  
 - LinkedIn: [Matthew Dalagheel](https://www.linkedin.com/in/matthewdalagheel/)  
 - Email: [MatthewDalagheel@outlook.com](mailto:MatthewDalagheel@outlook.com)  
 
----
 
-## 🪪 License
 
-This project is licensed under the [MIT License](LICENSE).
