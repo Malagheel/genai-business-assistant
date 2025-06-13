@@ -45,9 +45,72 @@ cd genai-business-assistant
 ```
 ### 2. Install Dependencies
 ```
-bash  pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 ### 3. Launch the App
 ```
 python -m streamlit run web/streamlit_app.py
 ```
+Then open your browser and go to:
+ http://localhost:8501
+
+## Example Output Preview
+--- AI Assistant Output ---
+
+**Business Requirements Summary:**
+1. Develop an AI-powered customer service solution to handle inquiries and reduce wait times.
+2. The solution should prioritize accurate and efficient handling of issues.
+3. The system must learn from past interactions to improve over time.
+4. Integration with existing platforms is required.
+5. The system must be scalable and support monitoring/analytics.
+
+**Suggested Generative AI Use Case(s):**
+1. Chatbot Integration
+2. Predictive Analytics
+3. Intelligent Routing
+
+**Required Data:**
+- Historical customer service interactions
+- Customer satisfaction scores
+- Agent performance data
+- Product/service metadata
+
+**Technical Architecture Overview:**
+1. Data Collection and Storage
+2. AI Model Training and Prediction
+3. Integration Layer with existing systems
+4. Monitoring and Feedback Loops
+
+**Implementation Timeline (basic):**
+- 2–4 weeks for data preparation
+- 4–6 weeks for model development
+- 2–4 weeks for integration and testing
+
+**Tools and Technologies:**
+- PostgreSQL, MongoDB, AWS S3
+- TensorFlow, PyTorch, Scikit-learn
+- REST APIs, Webhooks
+- Docker, Kubernetes, Prometheus, Grafana
+- Power BI, Tableau, Looker
+## 🛠 Tech Stack
+
+- **Frontend:** Streamlit  
+- **Language:** Python 3.11+  
+- **LLM API:** OpenAI GPT (via `openai` Python SDK)  
+- **Hosting:** Localhost / Streamlit Cloud  
+- **Monitoring:** Prometheus, Grafana  
+
+---
+
+## 👨‍💻 Author
+
+**Matthew D. Alagheel**  
+- GitHub: [@Malagheel](https://github.com/Malagheel)  
+- LinkedIn: [Matthew Dalagheel](https://www.linkedin.com/in/matthewdalagheel/)  
+- Email: [MatthewDalagheel@outlook.com](mailto:MatthewDalagheel@outlook.com)  
+
+---
+
+## 🪪 License
+
+This project is licensed under the [MIT License](LICENSE).
