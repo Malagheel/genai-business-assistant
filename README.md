@@ -100,11 +100,7 @@ Then open your browser and go to:
 - **Hosting:** Localhost / Streamlit Cloud  
 - **Monitoring:** Prometheus, Grafana  
 
----
 
-##  Screenshot
-
-![App Screenshot](assets/demo-screenshot.png)
 
 ---
 
