@@ -1,57 +1,53 @@
-#  GenAI Business Assistant
+# 🤖 GenAI Business Assistant
 
-A GenAI-powered assistant that helps translate high-level business problems into structured solution specifications — built to showcase AI product thinking for business analyst and tech strategy roles.
-
----
-
-##  Features
-
-- **LLM-Powered Reasoning**: Uses OpenRouter's API to generate technical and strategic specs.
-- **Business Use Case Translator**: Takes vague goals and returns architecture, data needs, tools, and timelines.
-- **Streamlit Web App**: User-friendly interface for live demos and non-technical users.
-- **Modular Codebase**: Easy to extend with new prompts, data sources, or deployment backends.
+Transform business problems into structured technical solution specifications using Generative AI.
 
 ---
 
-## 📸 Screenshot
+## ✨ Overview
 
-![screenshot](./assets/demo.png)
+The **GenAI Business Assistant** is a Streamlit-powered application that helps you convert natural language business challenges into detailed, AI-driven solution blueprints.
 
----
+Whether you're a product owner, business analyst, or technical stakeholder, this tool allows you to:
 
-##  Tech Stack
-
-- `Python 3.11+`
-- `Streamlit` for UI
-- `OpenRouter + LLM` (Mistral 7B Instruct)
-- `dotenv` for secure API key loading
+- ✅ Quickly define AI-powered product opportunities
+- 🚀 Automatically generate high-level technical documentation
+- 🧠 Understand the necessary data, architecture, and tooling
 
 ---
 
-##  Example Input
+## 💬 Example Input
 
-> We want to use AI to reduce customer service wait times.
 
-##  Output Includes:
+---
+## We want to use AI to reduce customer service wait times.
 
-- Business Requirements Summary
-- Suggested GenAI Use Cases
-- Required Data
-- Technical Architecture Overview
-- Implementation Timeline
-- Tools & Technologies
+##  Output Includes
+
+- **Business Requirements Summary**
+- **Suggested Generative AI Use Cases**
+- **Required Data**
+- **Technical Architecture Overview**
+- **Implementation Timeline**
+- **Tools & Technologies**
 
 ---
 
-##  Local Setup
+## 🖥️ Local Setup
+
+To run the project locally:
+
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/genai-business-assistant.git
+git clone https://github.com/Malagheel/genai-business-assistant.git
 cd genai-business-assistant
-pip install -r requirements.txt
+```
+### 2. Install Dependencies
+```
+bash  pip install -r requirements.txt
+```
+### 3. Launch the App
+```
 python -m streamlit run web/streamlit_app.py
-
-##  Contact
-
-Built by [Matthew D. Alagheel](https://github.com/Malagheel).  
-Feel free to connect on [LinkedIn](https://www.linkedin.com/in/matthewdalagheel/).
+```
